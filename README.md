@@ -16,6 +16,8 @@ Important to have the **window maximized.**
 
 ![seach bar image]()
 
+(The configuration is saved in 'seach_bar.json' file. If you fail this step, you can delete the file and try again)
+
 When the **time is up**, you will hear an **audio / alarm.**
 
 Later, **when you use the program**, in the same way, with the window maximized, **the messages will be sent automatically.**
