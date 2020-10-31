@@ -14,7 +14,7 @@ Run main.py
 The **first time** that you run the program, it **request to hover the mouse over the whatsapp web search bar.** You need to do this for **10 seconds** without moving the cursor.
 Important to have the **window maximized.**
 
-![seach bar image]()
+![seach bar image](https://github.com/DariHernandez/instant_menssage_whatsapp/blob/master/screenshots/search_bar.jpg)
 
 (The configuration is saved in 'seach_bar.json' file. If you fail this step, you can delete the file and try again)
 
@@ -41,7 +41,7 @@ $ python3 main.py
 
 2. Hover the mouse over the whatsapp web search bar.
 
-![gif hover the mouse]()
+![gif hover the mouse](https://github.com/DariHernandez/instant_menssage_whatsapp/blob/master/screenshots/seach_bar_example.gif)
 
 3. Modify information
 
