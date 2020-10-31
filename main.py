@@ -4,7 +4,7 @@
 from menssage_whatsapp import send_message
 
 # Contacts and menssage
-friends = ['Martha Hernandez H', '1 449 324 7419']
+friends = ['friend1', 'friend2']
 message = 'Hello'
 
 send_message (friends, message)

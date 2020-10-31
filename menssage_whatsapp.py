@@ -8,7 +8,7 @@ from rwJson import readJsonFile, writeJsonFile
 
 def getSearchBarInfo (json_file, alarm_sound): 
     """ Get position and color of seach bar"""
-    print ('Hover over whatsapp web search bar for 10 seconds. ')
+    print ('Hover the mouse over whatsapp web search bar for 10 seconds. ')
     counter = 0
     # Get position and color
     x, y = pyautogui.position()
