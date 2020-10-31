@@ -1,7 +1,7 @@
 #! python3
 # Send and intsnat menssage for facebook
 
-import pyautogui, time, os, subprocess
+import pyautogui, time, os, subprocess, sys
 import webbrowser
 from rwJson import readJsonFile, writeJsonFile
 
@@ -43,8 +43,9 @@ def getSearchBarInfo (json_file, alarm_sound):
                     'rgb': color}
     writeJsonFile(json_file, return_dic)
 
-    # return data
-    return return_dic
+    # End program
+    print ('\n Configuration finished. Run the program again \n')
+    sys.exit()
 
 def send_message (friends, message):
     """ Read information and send message"""
@@ -59,7 +60,7 @@ def send_message (friends, message):
     # Cordenates
     data = readJsonFile (json_file)
     if not data: 
-        data = getSearchBarInfo(json_file, alarm_sound)
+        getSearchBarInfo(json_file, alarm_sound)
     seaarchBar = data['xy']
     seaarchBarColor = data['rgb']
 
