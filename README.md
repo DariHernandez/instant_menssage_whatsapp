@@ -1,5 +1,6 @@
 # instant_menssage_whatsapp
 ## Description
+This is a terminal project.
 This program use the **pyautogui module to send whatsapp menssage** to your contacts.
 You can **configure the menssage** to send **and** your destination **contacts**
 
